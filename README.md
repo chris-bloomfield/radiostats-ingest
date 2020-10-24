@@ -1,6 +1,6 @@
 ## radiostats-ingest
 
-Script to convert & export [RAJAR](https://www.rajar.co.uk/listening/quarterly_listening.phphttps://www.rajar.co.uk/listening/quarterly_listening.php) CSV data to a MongoDB database.
+Script to convert & export [RAJAR](https://www.rajar.co.uk/listening/quarterly_listening.php) CSV data to a MongoDB database.
 
 To run:
 `yarn ingest`
