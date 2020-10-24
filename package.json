@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "ingest": "node index",
-    "test": ""
+    "test": "mocha --recursive './src/**.spec.js' './lib/**.spec.js'"
   },
   "dependencies": {
     "dayjs": "^1.8.28",

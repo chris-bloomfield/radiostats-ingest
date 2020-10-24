@@ -19,7 +19,6 @@ const resultsPath = `${__dirname}/../input`
 const nameChangePath = `${__dirname}/../data/nameChanges`
 
 const getPreviousQuarterDate = (date) => dayjs(date).subtract(3, 'month').endOf('month')
-// const getSeconds = (ms) => (ms / 1000).toFixed(2)
 
 const ingest = async () => {
   try {
